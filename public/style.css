@@ -1,0 +1,47 @@
+.navbar{
+	/*flexbox*/
+	display:flex; /*adds flexbox functionality*/
+	flex-direction: row; /*makes the direction horizontal*/
+	align-items: center; /*makes the items centered*/
+	justify-content: center; /*makes the content centered*/
+	/*flexbox responsiveness tweaks*/
+	/*cause weird wrapping but still responsive*/
+	flex-wrap: wrap;
+	min-width: 100px;
+	/*outline*/
+	outline: solid; /*adds an outline to the outer box*/
+	border-radius: 10px; /*determines the radius of the border*/
+	padding: 5px; /*adds padding*/
+}
+.navbutton{ /*buttons in the navigation bar*/
+	border: none; /*remove border*/
+	background: none; /*remove background*/
+	margin-left: 5vh; /*adds distance between the buttons*/
+}
+
+.main{
+	/*flexbox*/
+	display:flex; /*adds flexbox functionality*/
+	flex-direction: row; /*makes the direction horizontal*/
+	align-items: center; /*makes the items centered*/
+	justify-content: center; /*makes the content centered*/
+	/*flexbox responsiveness tweaks*/
+	/*cause weird wrapping but still responsive*/
+	flex-wrap: wrap;
+	min-width: 100px;
+	/*stretch to page size*/
+	height: 95vh; /*increases the size of the flexbox to fill the page*/
+	align-items: stretch; /*needed to make the flexbox stretch*/
+	
+}
+.sidebar{
+	background-color: gray; /*temporary colour change to differentiate*/
+	flex-grow: 1; /*add size to the flex box so it can be controlled*/
+}.sidebutton{ /*buttons in the navigation bar*/
+	border: none; /*remove border*/
+	background: none; /*remove background*/
+	margin-bottom: 5vh; /*adds distance between the buttons*/
+}
+.content-box{
+	flex-grow: 50; /*makes the flexbox bigger*/
+}
