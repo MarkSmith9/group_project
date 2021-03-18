@@ -9,21 +9,19 @@
   <body>
   <header>
    <div class="navbar"> <!--creates the top navigation bar-->
-	<div><button onclick="window.location.href='/splash.php';" class="navbutton">Home icon placeholder</button></div>
+	<div><img src = "image/home.svg" width="50" height="50" alt="exit" class="navbutton" onclick="window.location.href='/index.php';"></div>
 	<div><button onclick="window.location.href='/student_records.php';" class="navbutton">Students</button></div>
 	<div><button onclick="window.location.href='/placeholder.php';" class="navbutton">Staff</button></div>
 	<div><button onclick="window.location.href='/timetable.php';" class="navbutton">Timetables</button></div>
 	<div><button onclick="window.location.href='/placeholder.php';" class="navbutton">Forms</button></div>
 	<div><button onclick="window.location.href='/placeholder.php';" class="navbutton">Other records</button></div>
-	<div><button onclick="window.location.href='/placeholder.php';" class="navbutton">placeholder-bell</button></div>
-	<div><button onclick="window.location.href='/placeholder.php';" class="navbutton">placeholder-settings</button></div>
-	<img src = "image/exit.svg" width="50" height="50" alt="exit" class="navbutton" onclick="window.location.href='/index.php';">
-   </div>
+	<div><img src = "image/bell.svg" width="50" height="50" alt="exit" class="navbutton" onclick="window.location.href='/index.php';"></div>
+	<div><img src = "image/setting.svg" width="50" height="50" alt="exit" class="navbutton" onclick="window.location.href='/index.php';"></div>
+	<div><img src = "image/exit.svg" width="50" height="50" alt="exit" class="navbutton" onclick="window.location.href='/index.php';"></div>
 	</header>
 
 <div class="main">
 	<div class="sidebar"> <!--creates the side bar-->
-		<div><button onclick="window.location.href='/placeholder.php';" class="sidebutton">Home icon placeholder</button></div>
 		<div><button onclick="window.location.href='/placeholder.php';" class="sidebutton">profile pic</button></div>
 		<div><button onclick="window.location.href='/placeholder.php';" class="sidebutton">dashboard</button></div>
 		<div><button onclick="window.location.href='/placeholder.php';" class="sidebutton">favourites</button></div>
