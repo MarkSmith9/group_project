@@ -32,10 +32,10 @@
 	/*stretch to page size*/
 	height: 95vh; /*increases the size of the flexbox to fill the page*/
 	align-items: stretch; /*needed to make the flexbox stretch*/
-	
+
 }
 .sidebar{
-	background-color: gray; /*temporary colour change to differentiate*/
+	border-right: solid;  /*left border to separate content*/
 	flex-grow: 1; /*add size to the flex box so it can be controlled*/
 }.sidebutton{ /*buttons in the navigation bar*/
 	border: none; /*remove border*/
