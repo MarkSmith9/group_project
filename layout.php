@@ -2,7 +2,7 @@
 <html lang="en-gb">
   <head>
    <title><?php echo $title; ?> </title> <!--inserts the  title from the source file-->
-    <link rel="icon" href="images/favicon.png" /> <!--links the favicon TODO-->
+    <link rel="icon" href="image/favicon.png" /> <!--links the favicon TODO-->
     <link rel="stylesheet" href="style.css" />  <!--links the style sheet-->
   </head>
 
@@ -22,6 +22,7 @@
 
 <div class="main">
 	<div class="sidebar"> <!--creates the side bar-->
+	<div><img src = "image/logo.png" width="50" height="50" alt="exit" class="navbutton" onclick="window.location.href='/index.php';"></div>
 		<div><button onclick="window.location.href='/placeholder.php';" class="sidebutton">profile pic</button></div>
 		<div><button onclick="window.location.href='/placeholder.php';" class="sidebutton">dashboard</button></div>
 		<div><button onclick="window.location.href='/placeholder.php';" class="sidebutton">favourites</button></div>
