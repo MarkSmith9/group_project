@@ -1,3 +1,11 @@
+header {
+	display: flex;
+	flex-direction: row;
+}
+.logo {
+	margin: 1rem;
+}
+
 .navbar{
 	/*flexbox*/
 	display:flex; /*adds flexbox functionality*/
@@ -9,9 +17,12 @@
 	flex-wrap: wrap;
 	min-width: 100px;
 	/*outline*/
-	outline: solid; /*adds an outline to the outer box*/
+	border: solid; /*adds an outline to the outer box*/
 	border-radius: 10px; /*determines the radius of the border*/
 	padding: 5px; /*adds padding*/
+	border-radius: 25px; /*rounded corners*/
+	margin: auto; /*centeres the navbar*/
+	flex-grow: 50;
 }
 .navbutton{ /*buttons in the navigation bar*/
 	border: none; /*remove border*/
@@ -40,8 +51,18 @@
 }.sidebutton{ /*buttons in the navigation bar*/
 	border: none; /*remove border*/
 	background: none; /*remove background*/
-	margin-bottom: 5vh; /*adds distance between the buttons*/
 }
 .content-box{
 	flex-grow: 50; /*makes the flexbox bigger*/
+}
+.texticon { /*for icons that are characters, characters are used as opposed to an image to reduce file size*/
+	font-size: 50px; /*sets the font size to make the text button as big as other icons*/
+	color: black; /*sets the colour of the text as black as by default it is black-grayish*/
+}
+
+
+@media screen and (max-width: 1000px) {
+	header	{
+		max-width: 100%; /*makes the navbar full size when the screen gets smaller*/
+	}
 }
