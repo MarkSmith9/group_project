@@ -1,18 +1,18 @@
 header {
-	display: flex;
-	flex-direction: row;
+	display: flex; /*makes the whole header a flex box*/
+	flex-direction: row; /*makes the direction of the flex box to be horizontal*/
 }
 .logo {
-	margin: 1rem;
+	margin: 1rem 3rem 1rem 3rem;
 }
 
 .navbar{
-	/*flexbox*/
-	display:flex; /*adds flexbox functionality*/
+	/*flex box*/
+	display:flex; /*adds flex box functionality*/
 	flex-direction: row; /*makes the direction horizontal*/
 	align-items: center; /*makes the items centered*/
 	justify-content: center; /*makes the content centered*/
-	/*flexbox responsiveness tweaks*/
+	/*flex box responsiveness tweaks*/
 	/*cause weird wrapping but still responsive*/
 	flex-wrap: wrap;
 	min-width: 100px;
@@ -21,7 +21,7 @@ header {
 	border-radius: 10px; /*determines the radius of the border*/
 	padding: 5px; /*adds padding*/
 	border-radius: 25px; /*rounded corners*/
-	margin: auto; /*centeres the navbar*/
+	margin: auto; /*centres the navigation bar*/
 	flex-grow: 50;
 }
 .navbutton{ /*buttons in the navigation bar*/
@@ -31,29 +31,31 @@ header {
 }
 
 .main{
-	/*flexbox*/
-	display:flex; /*adds flexbox functionality*/
+	/*flex box*/
+	display:flex; /*adds flex box functionality*/
 	flex-direction: row; /*makes the direction horizontal*/
 	align-items: center; /*makes the items centered*/
 	justify-content: center; /*makes the content centered*/
-	/*flexbox responsiveness tweaks*/
+	/*flex box responsiveness tweaks*/
 	/*cause weird wrapping but still responsive*/
 	flex-wrap: wrap;
 	min-width: 100px;
 	/*stretch to page size*/
-	height: 95vh; /*increases the size of the flexbox to fill the page*/
-	align-items: stretch; /*needed to make the flexbox stretch*/
+	height: 95vh; /*increases the size of the flex box to fill the page*/
+	align-items: stretch; /*needed to make the flex box stretch*/
 
 }
 .sidebar{
 	border-right: solid;  /*left border to separate content*/
 	flex-grow: 1; /*add size to the flex box so it can be controlled*/
-}.sidebutton{ /*buttons in the navigation bar*/
+	text-align: center; /*aligns the text and icons to the center*/
+}
+.sidebutton{ /*buttons in the navigation bar*/
 	border: none; /*remove border*/
 	background: none; /*remove background*/
 }
 .content-box{
-	flex-grow: 50; /*makes the flexbox bigger*/
+	flex-grow: 50; /*makes the flex box bigger*/
 }
 .texticon { /*for icons that are characters, characters are used as opposed to an image to reduce file size*/
 	font-size: 50px; /*sets the font size to make the text button as big as other icons*/
@@ -63,6 +65,6 @@ header {
 
 @media screen and (max-width: 1000px) {
 	header	{
-		max-width: 100%; /*makes the navbar full size when the screen gets smaller*/
+		max-width: 100%; /*makes the navigation bar full size when the screen gets smaller*/
 	}
 }
