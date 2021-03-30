@@ -5,7 +5,6 @@ header {
 .logo {
 	margin: 1rem /*top margin*/ 3rem /*right margin*/ 1rem /*bottom margin*/ 3rem; /*left margin*/
 }
-
 .navbar{
 	/*flex box*/
 	display:flex; /*adds flex box functionality*/
