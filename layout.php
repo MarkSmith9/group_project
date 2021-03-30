@@ -15,7 +15,7 @@
 	<div><button onclick="window.location.href='/timetable.php';" class="navbutton">Timetables</button></div>
 	<div><button onclick="window.location.href='/placeholder.php';" class="navbutton">Forms</button></div>
 	<div><button onclick="window.location.href='/placeholder.php';" class="navbutton">Other records</button></div>
-	<div>space placeholder</div>
+	<div class="horizontal_space"> </div>
 	<div><img src = "image/bell.svg" width="50" height="50" alt="exit" class="navbutton" onclick="window.location.href='/index.php';"></div>
 	<div><img src = "image/setting.svg" width="50" height="50" alt="exit" class="navbutton" onclick="window.location.href='/index.php';"></div>
 	<div><img src = "image/exit.svg" width="50" height="50" alt="exit" class="navbutton" onclick="window.location.href='/index.php';"></div>
@@ -27,7 +27,7 @@
 	<div><img src = "image/dash.svg" width="50" height="50" alt="exit" class="sidebutton" onclick="window.location.href='/index.php';"><p>dashboard</p></div>
 	<div><img src = "image/star.svg" width="50" height="50" alt="exit" class="sidebutton" onclick="window.location.href='/index.php';"><p>favourites</p></div>
 	<div><img src = "image/message.svg" width="50" height="50" alt="exit" class="sidebutton" onclick="window.location.href='/index.php';"><p>messages</p></div>
-	<div>space placeholder</div>
+	<div class="vertical_space"> </div>
 	<div><img src = "image/calendar.svg" width="50" height="50" alt="exit" class="sidebutton" onclick="window.location.href='/index.php';"><p>diary</p></div>
 	<div><img src = "image/search.svg" width="50" height="50" alt="exit" class="sidebutton" onclick="window.location.href='/index.php';"><p>search</p></div>
 	<div><button onclick="window.location.href='/placeholder.php';" class="sidebutton texticon">?</button><p>help</p></div>
