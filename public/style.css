@@ -3,7 +3,7 @@ header {
 	flex-direction: row; /*makes the direction of the flex box to be horizontal*/
 }
 .logo {
-	margin: 1rem /*top margin*/ 3rem /*right margin*/ 1rem /*bottom margin*/ 3rem; /*left margin*/
+	margin: 1rem /*top margin*/ 1.5% /*right margin*/ 1rem /*bottom margin*/ 1.8%; /*left margin*/
 }
 .navbar{
 	/*flex box*/
@@ -77,5 +77,8 @@ header {
 	}
 	.horizontal_space {
 		margin-right: 0; /*removes space at the right of the placeholder*/
+	}
+	.logo {
+		margin: 0;
 	}
 }

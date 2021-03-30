@@ -8,7 +8,7 @@
 
   <body>
   <header>
-	<img src = "image/logo.svg" width="50" height="50" alt="exit" class="sidebutton logo" onclick="window.location.href='/index.php';">
+	<img src = "image/logo.svg" width="50" height="50" alt="WUC logo" class="sidebutton logo" onclick="window.location.href='/index.php';">
    <div class="navbar"> <!--creates the top navigation bar-->
 	<div><button onclick="window.location.href='/student_records.php';" class="navbutton">Students</button></div>
 	<div><button onclick="window.location.href='/placeholder.php';" class="navbutton">Staff</button></div>
@@ -16,20 +16,20 @@
 	<div><button onclick="window.location.href='/placeholder.php';" class="navbutton">Forms</button></div>
 	<div><button onclick="window.location.href='/placeholder.php';" class="navbutton">Other records</button></div>
 	<div class="horizontal_space"> </div>
-	<div><img src = "image/bell.svg" width="50" height="50" alt="exit" class="navbutton" onclick="window.location.href='/index.php';"></div>
-	<div><img src = "image/setting.svg" width="50" height="50" alt="exit" class="navbutton" onclick="window.location.href='/index.php';"></div>
-	<div><img src = "image/exit.svg" width="50" height="50" alt="exit" class="navbutton" onclick="window.location.href='/index.php';"></div>
+	<div><img src = "image/bell.svg" width="50" height="50" alt="notifications" class="navbutton" onclick="window.location.href='/index.php';"></div>
+	<div><img src = "image/setting.svg" width="50" height="50" alt="settings" class="navbutton" onclick="window.location.href='/index.php';"></div>
+	<div><img src = "image/exit.svg" width="50" height="50" alt="log out" class="navbutton" onclick="window.location.href='/index.php';"></div>
 	</header>
 
 <div class="main">
 	<div class="sidebar"> <!--creates the side bar-->
-	<div><img src = "image/profile.svg" width="50" height="50" alt="exit" class="sidebutton" onclick="window.location.href='/index.php';"> <p>profile</p></div>
-	<div><img src = "image/dash.svg" width="50" height="50" alt="exit" class="sidebutton" onclick="window.location.href='/index.php';"><p>dashboard</p></div>
-	<div><img src = "image/star.svg" width="50" height="50" alt="exit" class="sidebutton" onclick="window.location.href='/index.php';"><p>favourites</p></div>
-	<div><img src = "image/message.svg" width="50" height="50" alt="exit" class="sidebutton" onclick="window.location.href='/index.php';"><p>messages</p></div>
+	<div><img src = "image/profile.svg" width="50" height="50" class="sidebutton" onclick="window.location.href='/index.php';"> <p>profile</p></div>
+	<div><img src = "image/dash.svg" width="50" height="50" class="sidebutton" onclick="window.location.href='/index.php';"><p>dashboard</p></div>
+	<div><img src = "image/star.svg" width="50" height="50" class="sidebutton" onclick="window.location.href='/index.php';"><p>favourites</p></div>
+	<div><img src = "image/message.svg" width="50" height="50" class="sidebutton" onclick="window.location.href='/index.php';"><p>messages</p></div>
 	<div class="vertical_space"> </div>
-	<div><img src = "image/calendar.svg" width="50" height="50" alt="exit" class="sidebutton" onclick="window.location.href='/index.php';"><p>diary</p></div>
-	<div><img src = "image/search.svg" width="50" height="50" alt="exit" class="sidebutton" onclick="window.location.href='/index.php';"><p>search</p></div>
+	<div><img src = "image/calendar.svg" width="50" height="50" class="sidebutton" onclick="window.location.href='/index.php';"><p>diary</p></div>
+	<div><img src = "image/search.svg" width="50" height="50" class="sidebutton" onclick="window.location.href='/index.php';"><p>search</p></div>
 	<div><button onclick="window.location.href='/placeholder.php';" class="sidebutton texticon">?</button><p>help</p></div>
 	</div>
 	<div class="content-box">
