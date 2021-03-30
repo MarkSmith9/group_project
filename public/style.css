@@ -3,7 +3,7 @@ header {
 	flex-direction: row; /*makes the direction of the flex box to be horizontal*/
 }
 .logo {
-	margin: 1rem 3rem 1rem 3rem;
+	margin: 1rem /*top margin*/ 3rem /*right margin*/ 1rem /*bottom margin*/ 3rem; /*left margin*/
 }
 
 .navbar{
@@ -61,10 +61,22 @@ header {
 	font-size: 50px; /*sets the font size to make the text button as big as other icons*/
 	color: black; /*sets the colour of the text as black as by default it is black-grayish*/
 }
+.vertical_space {
+	margin-bottom: 5rem; /*adds space at the bottom of the placeholder element*/
+}
+.horizontal_space {
+	margin-right: 5rem; /*adds space at the right right right of the placeholder element*/
+}
 
-
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) { /*media query to do actions once the screen is thinner than 1000 pixels*/
 	header	{
 		max-width: 100%; /*makes the navigation bar full size when the screen gets smaller*/
+	}
+
+	.vertical_space {
+		margin-bottom: 0; /*removes space at the bottom of the placeholder*/
+	}
+	.horizontal_space {
+		margin-right: 0; /*removes space at the right of the placeholder*/
 	}
 }
