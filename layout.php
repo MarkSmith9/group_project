@@ -33,7 +33,7 @@
 	<div><button onclick="window.location.href='/placeholder.php';" class="sidebutton texticon">?</button><p>help</p></div>
 	</div>
 	<div class="content-box">
-	<?php echo $content ?> <!--inserts the content from the PHP file in the main website-->
+	<?php echo $content?> <!--inserts the content from the PHP file in the main website-->
 	</div>
 </div>
     <script src="js/scripts.js"></script> <!--runs the JavaScript at the bottom as JavaScript runs last TODO-->
