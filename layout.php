@@ -8,15 +8,14 @@
 
   <body>
   <header>
-	<img src = "image/logo.svg" width="50" height="50" alt="WUC logo" class="sidebutton logo" onclick="window.location.href='/index.php';">
    <div class="navbar"> <!--creates the top navigation bar-->
-	<div><button onclick="window.location.href='/student_records.php';" class="navbutton">Students</button></div>
+	<img src = "image/logo.svg" width="50" height="50" alt="WUC logo" class="navbutton" onclick="window.location.href='/index.php';">
+	<div class = "push-right"><button onclick="window.location.href='/student_records.php';" class="navbutton">Students</button></div>
 	<div><button onclick="window.location.href='/placeholder.php';" class="navbutton">Staff</button></div>
 	<div><button onclick="window.location.href='/timetable.php';" class="navbutton">Timetables</button></div>
 	<div><button onclick="window.location.href='/placeholder.php';" class="navbutton">Forms</button></div>
 	<div><button onclick="window.location.href='/placeholder.php';" class="navbutton">Other records</button></div>
-	<div class="horizontal_space"> </div>
-	<div><img src = "image/bell.svg" width="50" height="50" alt="notifications" class="navbutton" onclick="window.location.href='/index.php';"></div>
+	<div class = "push-right"><img src = "image/bell.svg" width="50" height="50" alt="notifications" class="navbutton" onclick="window.location.href='/index.php';"></div>
 	<div><img src = "image/setting.svg" width="50" height="50" alt="settings" class="navbutton" onclick="window.location.href='/index.php';"></div>
 	<div><img src = "image/exit.svg" width="50" height="50" alt="log out" class="navbutton" onclick="window.location.href='/index.php';"></div>
 	</header>

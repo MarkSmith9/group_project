@@ -1,32 +1,25 @@
-header {
-	display: flex; /*makes the whole header a flex box*/
-	flex-direction: row; /*makes the direction of the flex box to be horizontal*/
-}
-.logo {
-	margin: 1rem /*top margin*/ 1.5% /*right margin*/ 1rem /*bottom margin*/ 1.8%; /*left margin*/
+.push-right {
+  margin-left: auto; /*used to push items to the right*/
 }
 .navbar{
-	/*flex box*/
-	display:flex; /*adds flex box functionality*/
-	flex-direction: row; /*makes the direction horizontal*/
-	align-items: center; /*makes the items centered*/
+	display: flex; /*makes a flex box*/
+	margin: 0 -10px; /*needed to make .push-right work correctly*/
+	border: solid; /*adds an outline to the outer box*/
+	border-radius: 10px; /*determines the radius of the border*/
+	padding: 5px /*top padding*/ 30px /*right padding*/ 5px /*bottom padding*/ 30px /*left padding*/ ;
+	border-radius: 25px; /*rounded corners*/
+	margin: auto; /*centres the navigation bar*/
+	align-items: center; /*aligns the items on the center*/
+	flex-wrap: wrap; /*makes the elements wrap on smaller size screens instead of clipping through*/
 	justify-content: center; /*makes the content centered*/
 	/*flex box responsiveness tweaks*/
 	/*cause weird wrapping but still responsive*/
-	flex-wrap: wrap;
-	min-width: 100px;
-	/*outline*/
-	border: solid; /*adds an outline to the outer box*/
-	border-radius: 10px; /*determines the radius of the border*/
-	padding: 5px; /*adds padding*/
-	border-radius: 25px; /*rounded corners*/
-	margin: auto; /*centres the navigation bar*/
-	flex-grow: 50;
+	min-width: 100px; /*sets minimum width, this is for very narrow screens to prevent each icon taking the whole screen*/
 }
 .navbutton{ /*buttons in the navigation bar*/
 	border: none; /*remove border*/
 	background: none; /*remove background*/
-	margin-left: 5vh; /*adds distance between the buttons*/
+    	margin: 0 10px;
 }
 
 .main{
@@ -68,17 +61,14 @@ header {
 }
 
 @media screen and (max-width: 1000px) { /*media query to do actions once the screen is thinner than 1000 pixels*/
-	header	{
-		max-width: 100%; /*makes the navigation bar full size when the screen gets smaller*/
+	.navbar {
+		padding: 0px /*top padding*/ 0px /*right padding*/ 0px /*bottom padding*/ 0px /*left padding*/ ;
 	}
+	.push-right {
+		margin-left: 0px; /*removes spacing making the icons go together*/
 
+	}
 	.vertical_space {
 		margin-bottom: 0; /*removes space at the bottom of the placeholder*/
-	}
-	.horizontal_space {
-		margin-right: 0; /*removes space at the right of the placeholder*/
-	}
-	.logo {
-		margin: 0;
 	}
 }
