@@ -4,7 +4,7 @@
 		<title><?php echo $title; ?></title>
 		<!--inserts the  title from the source file-->
 		<link rel="icon" href="image/favicon.svg" />
-		<!--links the favicon TODO-->
+		<!--links the favicon-->
 		<link rel="stylesheet" href="style.css" />
 		<!--links the style sheet-->
 	</head>
@@ -171,7 +171,7 @@
 					</div>
 				</div>
 				<script src="js/scripts.js"></script>
-				<!--runs the JavaScript at the bottom as JavaScript runs last TODO-->
+				<!--runs the JavaScript at the bottom as JavaScript runs last, remove this if no javascript is ran-->
 			</div>
 		</header>
 	</body>
