@@ -24,7 +24,7 @@
 	/*buttons in the navigation bar*/
 	border: none; /*remove border*/
 	background: none; /*remove background*/
-	margin: 0 10px;
+	margin: 0 10px; /*adds margin to the right of the navigation button, might also be needed for push right to work*/
 }
 
 .main {
@@ -35,8 +35,6 @@
 	justify-content: center; /*makes the content centered*/
 	/*flex box responsiveness tweaks*/
 	/*cause weird wrapping but still responsive*/
-	flex-wrap: wrap;
-	min-width: 100px;
 	/*stretch to page size*/
 	height: 95vh; /*increases the size of the flex box to fill the page*/
 	align-items: stretch; /*needed to make the flex box stretch*/
@@ -55,7 +53,7 @@
 	/*buttons in the navigation bar*/
 	border: none; /*remove border*/
 	background: none; /*remove background*/
-	margin: 0 0 10px;
+	margin: 0 0 10px /*adds margin below of the navigation button, might also be needed for push down to work*/;
 }
 .content-box {
 	flex-grow: 50; /*makes the flex box bigger*/
