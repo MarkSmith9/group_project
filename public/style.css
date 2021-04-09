@@ -38,6 +38,7 @@
 	/*stretch to page size*/
 	height: 95vh; /*increases the size of the flex box to fill the page*/
 	align-items: stretch; /*needed to make the flex box stretch*/
+	flex-wrap: wrap; /*makes the line of the sidebar expand correctly*/
 }
 .sidebar {
 	display: flex; /*makes a flex box*/
