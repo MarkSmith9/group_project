@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<!-- sets character encoding as required by w3c -->
-		<title><?php echo $title; ?></title>
+		<title><?=$title; ?></title>
 		<!--inserts the  title from the source file-->
 		<link rel="icon" href="image/favicon.svg" />
 		<!--links the favicon-->
@@ -175,7 +175,7 @@
 				</div>
 			</div>
 			<div class="content-box">
-				<?php echo $content?>
+				<?=$content?>
 				<!--inserts the content from the PHP file in the main website-->
 			</div>
 		</div>
