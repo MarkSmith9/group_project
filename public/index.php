@@ -23,5 +23,5 @@ else { //displays an access denied if the user is not logged in
 </form>
 ';
 }
-require '../layout.php'; //gets content.php which provides the layout. It is outside of the public folder as users should not directly access it
+require '../templates/layout.html.php'; //gets content.php which provides the layout. It is outside of the public folder as users should not directly access it
 ?>

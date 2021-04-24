@@ -29,7 +29,7 @@ $content = '<h2>Log in</h2>
 <input type="submit" name="submit" value="Log In" />
 </form>';
 }
-require '../layout.php'; //gets content.php which provides the layout. It is outside of the public folder as users should not directly access it
+require '../templates/layout.html.php'; //gets content.php which provides the layout. It is outside of the public folder as users should not directly access it
 ?>
 
 
