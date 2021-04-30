@@ -17,3 +17,5 @@ The code for the RMS for WUC
 - make side icons and bottom icons sticky to their appropriate side for better spacing
 - double check that the alt tags are correctly implemented
 >>>>>>> 9fb66f4c5704acdffb024776c1d06e1de6d2da86
+
+Test
