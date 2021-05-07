@@ -1,5 +1,9 @@
 <?php
 session_start(); //used to start the session - has to be on the first line
+
+//connecting to database
+require '../database.php';
+
 if (isset($_POST['submit'])) {
   //check whether correct login details is provided
   if ($_POST['username'] === 'assimiliation' && $_POST['password'] === 'group1') {

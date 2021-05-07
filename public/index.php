@@ -1,5 +1,9 @@
 <?php
 session_start(); //used to start the session - has to be on the first line
+
+//connecting to database
+require '../database.php';
+
 if (isset($_POST['submit'])) {
 	
 if ($_POST["username"] === "admin" && $_POST["password"] === "admin") {

@@ -1,5 +1,9 @@
 <?php
 session_start(); //used to start the session - has to be on the first line
+
+//connecting to database
+require '../database.php';
+
 if (isset($_SESSION["admin"])) { //checks that the user is logged in
 	$title = ''; //sets the title
 	$content = '';//sets the content inside the page
