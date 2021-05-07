@@ -1,4 +1,3 @@
-
 <?php
 $server = 'v.je';
 $username = 'student';
