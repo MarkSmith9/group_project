@@ -10,7 +10,7 @@ if (isset($_SESSION["admin"])) { //checks that the user is logged in
 }
 else { //displays an access denied if the user is not logged in
   $title = 'Access denied';
-  $content = 'Acess denied';
+  $content = 'Access denied';
 }
 require '../templates/layout.html.php'; //loads layout.php which contains the layout for the page
 ?>
