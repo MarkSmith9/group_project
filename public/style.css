@@ -6,9 +6,9 @@
 }
 .navbar {
 	display: flex; /*makes a flex box*/
-	margin: 0 -10px; /*needed to make .push-right work correctly*/
+	/*margin: 0 -10px; needed to make .push-right work correctly*/
 	border: solid; /*adds an outline to the outer box*/
-	border-radius: 10px; /*determines the radius of the border*/
+	/*border-radius: 10px; determines the radius of the border*/
 	padding: 5px /*top padding*/ 30px /*right padding*/ 5px
 		/*bottom padding*/ 30px /*left padding*/;
 	border-radius: 25px; /*rounded corners*/
@@ -31,7 +31,7 @@
 	/*flex box*/
 	display: flex; /*adds flex box functionality*/
 	flex-direction: row; /*makes the direction horizontal*/
-	align-items: center; /*makes the items centered*/
+	/*align-items: center; makes the items centered*/
 	justify-content: center; /*makes the content centered*/
 	/*flex box responsiveness tweaks*/
 	/*cause weird wrapping but still responsive*/
@@ -47,8 +47,8 @@
 	border-right: solid; /*left border to separate content*/
 	flex-grow: 1; /*add size to the flex box so it can be controlled*/
 	text-align: center; /*aligns the text and icons to the center*/
-	padding: 30px /*top padding*/ 0px /*right padding*/ 30px
-		/*bottom padding*/ 0px /*left padding*/;
+	padding: 30px /*top padding*/ 0 /*right padding*/ 30px
+		/*bottom padding*/ 0 /*left padding*/;
 }
 .sidebutton {
 	/*buttons in the navigation bar*/
@@ -68,13 +68,13 @@
 @media screen and (max-width: 1000px) {
 	/*media query to do actions once the screen is thinner than 1000 pixels*/
 	.navbar {
-		padding: 0px /*top padding*/ 0px /*right padding*/ 0px
-			/*bottom padding*/ 0px /*left padding*/;
+		padding: 0 /*top padding*/ 0 /*right padding*/ 0
+			/*bottom padding*/ 0 /*left padding*/;
 	}
 	.push-right {
-		margin-left: 0px; /*removes spacing making the icons go together*/
+		margin-left: 0; /*removes spacing making the icons go together*/
 	}
 	.push-down {
-		margin-bottom: 0px; /*removes spacing making the icons go together*/
+		margin-bottom: 0; /*removes spacing making the icons go together*/
 	}
 }
