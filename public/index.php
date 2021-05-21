@@ -17,6 +17,8 @@ if (isset($_SESSION["loggedin"])) { //checks that the user is logged in
 else { //displays an access denied if the user is not logged in
   $title = 'WUC - Log in';
   $content = '
+<div class = "login">
+ <img src="image/logo.svg" alt="logo">
 <h2>Log in</h2>
  <form action="index.php" method="POST">
  <label>Username: </label>
@@ -25,6 +27,7 @@ else { //displays an access denied if the user is not logged in
  <input required type="password" name="password" />
  <input required type="submit" name="submit" value="Log In" />
 </form>
+</div>
 ';
   if (isset($_POST['username']) && isset($_POST['password'])) {
   $stmt = $pdo->prepare('SELECT * FROM user WHERE username = :username');
@@ -48,5 +51,5 @@ else { //displays an access denied if the user is not logged in
   }
 }
 
-require '../templates/layout.html.php'; //gets content.php which provides the layout. It is outside of the public folder as users should not directly access it
+require '../templates/login.html.php'; //gets content.php which provides the layout. It is outside of the public folder as users should not directly access it
 ?>
