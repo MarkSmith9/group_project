@@ -90,7 +90,7 @@
 						height="50"
 						alt="log out"
 						class="navbutton"
-						onclick="window.location.href='/index.php';"
+						onclick="window.location.href='/logout.php';"
 					/>
 				</div>
 			</div>

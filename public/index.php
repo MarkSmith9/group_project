@@ -31,7 +31,7 @@ else { //displays an access denied if the user is not logged in
 </div>
 </form> <div class="bottom login">
 <p>©2020-2021 Woodlands University College. All Rights Reserved.</p> <br>
-<p> <a href="tutorial.php">help</a> </p>
+<p> <a href="tutorial.php">Help</a> </p>
 <p> <a href="privacy.php">Privacy Policy</a> </p>
 <p> <a href="tos.php">Terms of Service</a> </p>
 </div>
