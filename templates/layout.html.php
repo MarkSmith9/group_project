@@ -33,7 +33,7 @@
 				</div>
 				<div>
 					<button
-						onclick="window.location.href='/placeholder.php';"
+						onclick="window.location.href='/staff_records.php';"
 						class="navbutton"
 					>
 						Staff
@@ -49,7 +49,7 @@
 				</div>
 				<div>
 					<button
-						onclick="window.location.href='/placeholder.php';"
+						onclick="window.location.href='/forms.php';"
 						class="navbutton"
 					>
 						Forms
@@ -57,7 +57,7 @@
 				</div>
 				<div>
 					<button
-						onclick="window.location.href='/placeholder.php';"
+						onclick="window.location.href='/otherrecords.php';"
 						class="navbutton"
 					>
 						Other records
@@ -70,7 +70,7 @@
 						width="50"
 						height="50"
 						class="navbutton"
-						onclick="window.location.href='/index.php';"
+						onclick="window.location.href='/notifications.php';"
 					/>
 				</div>
 				<div>
@@ -80,7 +80,7 @@
 						width="50"
 						height="50"
 						class="navbutton"
-						onclick="window.location.href='/index.php';"
+						onclick="window.location.href='/settings.php';"
 					/>
 				</div>
 				<div>
@@ -105,7 +105,7 @@
 						height="50"
 						class="sidebutton"
 						alt="profile-picture"
-						onclick="window.location.href='/index.php';"
+						onclick="window.location.href='/profile.php';"
 					/>
 					<p>profile</p>
 				</div>
@@ -127,7 +127,7 @@
 						height="50"
 						class="sidebutton"
 						alt="favourites"
-						onclick="window.location.href='/index.php';"
+						onclick="window.location.href='/favourites.php';"
 					/>
 					<p>favourites</p>
 				</div>
@@ -138,7 +138,7 @@
 						height="50"
 						class="sidebutton"
 						alt="messages"
-						onclick="window.location.href='/index.php';"
+						onclick="window.location.href='/messages.php';"
 					/>
 					<p>messages</p>
 				</div>
@@ -149,7 +149,7 @@
 						height="50"
 						class="sidebutton"
 						alt="diary"
-						onclick="window.location.href='/index.php';"
+						onclick="window.location.href='/diary.php';"
 					/>
 					<p>diary</p>
 				</div>
@@ -159,7 +159,7 @@
 						width="50"
 						height="50"
 						class="sidebutton"
-						onclick="window.location.href='/index.php';"
+						onclick="window.location.href='/search.php';"
 						alt="search"
 					/>
 					<p>search</p>

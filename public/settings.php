@@ -1,3 +1,4 @@
+
 <?php
 session_start(); //used to start the session - has to be on the first line
 
@@ -5,10 +6,10 @@ session_start(); //used to start the session - has to be on the first line
 require '../database.php';
 
 if (isset($_SESSION["loggedin"])) { //checks that the user is logged in
-	$title = 'timetables'; //sets the title
+	$title = 'settings'; //sets the title
 	$content = '
 <div class = "login">
-<h1> Timetables </h1>
+<h1>Settings</h1>
 </div>
 ';//sets the content inside the page
 }

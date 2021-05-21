@@ -7,6 +7,7 @@ require '../database.php';
 if (isset($_SESSION["loggedin"])) { //checks that the user is logged in
 	$title = 'WUC - home'; //sets the title
 	$content = '
+<div class = "login">
 <h1> Welcome back </h1>
 <p> Attendance status </p>
 <p> Present: 100 </p>
@@ -34,7 +35,7 @@ if (isset($_SESSION["loggedin"])) { //checks that the user is logged in
             </div>
 <h1> Messages </h1>
 <p>  Message </p>
-
+</div>
 ';//sets the content inside the page
 }
 else { //displays an access denied if the user is not logged in
