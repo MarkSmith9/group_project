@@ -1,3 +1,12 @@
+.progress {
+	background-color: lightgray;
+}
+.progress-inside {
+	color: white;
+	text-align: center;
+	background-color: red;
+}
+
 .button {
 	color: white;
 	border: solid;
@@ -102,7 +111,6 @@ div > div {
 .content-box {
 	flex-grow: 50; /*makes the flex box bigger*/
 	width: 0; /*fixes sidebar taking the entire screen on smaller sizes*/
-	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }

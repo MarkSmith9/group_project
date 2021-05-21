@@ -27,11 +27,13 @@ else { //displays an access denied if the user is not logged in
  <input required type="password" name="password" />
 <br>
  <input required type="submit" name="submit" class="button" value="Log In" />
-<br><p>Forgot Password?</p>
+<p> <a href="pass.php">Forgot Password?</a> </p>
 </div>
 </form> <div class="bottom login">
 <p>©2020-2021 Woodlands University College. All Rights Reserved.</p> <br>
-<p> Help </p> <p> Privacy </p> <p> Terms of Use </p>
+<p> <a href="tutorial.php">help</a> </p>
+<p> <a href="privacy.php">Privacy Policy</a> </p>
+<p> <a href="tos.php">Terms of Service</a> </p>
 </div>
 ';
   if (isset($_POST['username']) && isset($_POST['password'])) {
