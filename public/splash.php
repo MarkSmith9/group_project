@@ -4,8 +4,8 @@ session_start(); //used to start the session - has to be on the first line
 //connecting to database
 require '../database.php';
 
-if (isset($_SESSION["admin"])) { //checks that the user is logged in
-	$title = 'logged in'; //sets the title
+if (isset($_SESSION["loggedin"])) { //checks that the user is logged in
+	$title = 'WUC - home'; //sets the title
 	$content = 'test';//sets the content inside the page
 }
 else { //displays an access denied if the user is not logged in

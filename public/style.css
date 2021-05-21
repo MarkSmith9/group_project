@@ -1,8 +1,35 @@
+.button {
+	color: white;
+	border: solid;
+	border-radius: 10px;
+	font-size: 20px;
+	margin-top: 20px;
+	border: none;
+	background-color: black;
+	outline: none;
+	padding: 3px;
+}
+.bottom {
+	position: fixed;
+	width: 500px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.grid {
+	display: grid;
+	grid-gap: 1px;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+div > div {
+	padding: 10px;
+}
 .login {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	justify-content: center;
 }
 .push-right {
 	margin-left: auto; /*used to push items to the right*/
@@ -60,22 +87,23 @@
 	/*buttons in the navigation bar*/
 	border: none; /*remove border*/
 	background: none; /*remove background*/
-	margin: 0 0 10px /*adds margin below of the navigation button, might also be needed for push down to work*/;
+	margin: 0 0 10px
+		/*adds margin below of the navigation button, might also be needed for push down to work*/;
 }
 .container {
 }
 
 .item {
-  flex: 0 32%;
-  height: 100px;
-  margin-bottom: 2%; /* (100-32*3)/2 */
+	flex: 0 32%;
+	height: 100px;
+	margin-bottom: 2%; /* (100-32*3)/2 */
 }
 
 .content-box {
 	flex-grow: 50; /*makes the flex box bigger*/
 	width: 0; /*fixes sidebar taking the entire screen on smaller sizes*/
-  	display: flex;
- 	flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 }
 .texticon {

@@ -11,8 +11,8 @@ if ($_POST["username"] === "admin" && $_POST["password"] === "admin") {
 }
 }
 if (isset($_SESSION["loggedin"])) { //checks that the user is logged in
-	$title = 'WUC - home'; //sets the title
-	$content = '<h2>Welcome Back, Admin</h2>';
+	header("Location: splash.php");
+	die();
 }
 else { //displays an access denied if the user is not logged in
   $title = 'WUC - Log in';
@@ -25,8 +25,13 @@ else { //displays an access denied if the user is not logged in
  <input required type="text" name="username" />
  <label>Password: </label>
  <input required type="password" name="password" />
- <input required type="submit" name="submit" value="Log In" />
-</form>
+<br>
+ <input required type="submit" name="submit" class="button" value="Log In" />
+<br><p>Forgot Password?</p>
+</div>
+</form> <div class="bottom login">
+<p>©2020-2021 Woodlands University College. All Rights Reserved.</p> <br>
+<p> Help </p> <p> Privacy </p> <p> Terms of Use </p>
 </div>
 ';
   if (isset($_POST['username']) && isset($_POST['password'])) {
