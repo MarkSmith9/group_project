@@ -9,6 +9,12 @@ if (isset($_SESSION["loggedin"])) { //checks that the user is logged in
 	$content = '
 <div class = "login">
 <h1> Messages </h1>
+<h2> Message title <h2>
+<p> message content placeholder </p>
+<h3> Teacher <h3>
+<p> message content placeholder </p>
+<h4> Messages <h4>
+<p> message content placeholder </p>
 </div>
 ';//sets the content inside the page
 }

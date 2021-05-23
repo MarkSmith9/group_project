@@ -1,15 +1,7 @@
 <?php
 session_start(); //used to start the session
 $title = 'Make an account'; //sets the title
-// //sets the content
-// $content = '
-// <form action="register.php" method="POST">
-// <label>Please make a username: </label> <input required type="username" name="username" required/>
-// <label>Please make a password: </label> <input required type="password" name="password" required/>
-// <label>e-mail </label> <input required type="email" name="email"/>
-// <input type="submit" name="submit" value="Submit" />
-// </form>
-// ';
+
 if (!empty($_POST['email']) && ($_POST['username']) && ($_POST['password'])) {
   $username = $_POST['username'];
   $email = $_POST['email'];
@@ -35,8 +27,8 @@ if (isset($_POST['submit'])) {
   //sets the content
 $content = '
 <form action="register.php" method="POST">
-<label>Please make a username: </label> <input required type="username" name="username" required/>
-<label>Please make a password: </label> <input required type="password" name="password" required/>
+<label>username: </label> <input required type="username" name="username" required/>
+<label>password: </label> <input required type="password" name="password" required/>
 <label>e-mail </label> <input required type="email" name="email"/>
 <input type="submit" name="submit" value="Submit" />
 </form>
