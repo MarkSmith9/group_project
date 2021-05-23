@@ -4,8 +4,9 @@ session_start(); //used to start the session - has to be on the first line
 //connecting to database
 require '../database.php';
 
+$title = 'WUC - Log in';
+
   if (isset($_POST["submit"])) {
-  // if (isset($_POST['email']) && isset($_POST['password'])) {
     $stmt = $pdo->prepare('SELECT * FROM user WHERE email = :email');
       //user input is inserted on the way to prevent SQL injection
       $values = [
@@ -14,7 +15,7 @@ require '../database.php';
       $stmt->execute($values); //execute the query
       $user = $stmt->fetch(); //fetch the user array
       if (password_verify($_POST['password'], $user[1])) { //verifies that the password is correct
-       
+      
         $content =  'log in successful'; //notifies the user that they are logged in
         $_SESSION["loggedin"] = "yes"; //sets the session variable loggedin to true in order to tell other sites that the user is logged in
 
@@ -25,21 +26,21 @@ require '../database.php';
           $_SESSION["admin"] ="admin";
 
         }
+      }
         
       else{
-     //elseif (isset($_POST["submit"])) {
+
         $content = 'The email or password was incorrect'; //if there is no such account they are also notified
-      }
-    }
+    
   }
+}
 
-  else{
+else{
 
-  $title = 'WUC - Log in';
   $content = '
-<div class = "login">
+ <div class = "login">
  <img src="image/logo.svg" alt="logo">
-<h2>Log in</h2>
+ <h2>Log in</h2>
  <form action="index.php" method="POST">
  <label>email: </label>
  <input required type="text" name="email" />
@@ -56,7 +57,7 @@ require '../database.php';
 <p> <a href="tos.php">Terms of Service</a> </p>
 </div>
 ';
-  }
+ }
 
 require '../templates/login.html.php'; //gets content.php which provides the layout. It is outside of the public folder as users should not directly access it
 ?>
