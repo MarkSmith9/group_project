@@ -57,10 +57,10 @@
 				</div>
 				<div>
 					<button
-						onclick="window.location.href='/otherrecords.php';"
+						onclick="window.location.href='/displayRecords.php';"
 						class="navbutton"
 					>
-						Other records
+						Students Records
 					</button>
 				</div>
 				<div class="push-right">

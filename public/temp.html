@@ -94,3 +94,23 @@ else { //displays an access denied if the user is not logged in
 }
 require '../templates/layout.html.php'; //loads layout.php which contains the layout for the page
 ?>
+
+
+<p><?=$students['first_name']?></p>
+<p><?=$students['middle_name']?></p>
+ <p><?=$students['surname']?></p>
+ <p><?=$students['term_address']?></p>
+ <p><?=$students['non_term_address']?></p>
+ <p><?=$students['phone_number']?></p>
+ <p><?=$students['email_address']?></p>
+  <p><?=$students['student_record_status']?></p>
+  <p><?=$students['entry_qualification']?></p>
+  <p><?=$students['dormancy_reason']?></p>
+  <p><?=$students['gender']?></p>
+  <p><?=$students['staff_id']?></p>
+    <p><?=$students['course_year']?></p>
+ <p><?=$students['emergency_contact']?></p>
+<p><?=$students['additional_information']?></p>
+</li>
+<?php
+} 
